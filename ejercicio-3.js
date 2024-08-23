@@ -8,6 +8,9 @@
 //     impares:[...]:
 // }
 
+let palabras = ['Auto', 'Parlante', 'Moto', 'Sal', 'Perfume', 'estrella', 'Sol', 'Nubes', "Ezequiel"];
+
+const resultado = separarPorPares(palabras);
 
 function separarPorPares(array) {
     let resultado = {
@@ -26,8 +29,6 @@ function separarPorPares(array) {
     return resultado;
 }
 
-let palabras = ['Auto', 'Parlante', 'Moto', 'Sal', 'Perfume', 'estrella', 'Sol', 'Nubes'];
 
-const resultado = separarPorPares(palabras);
 
 console.log(resultado);

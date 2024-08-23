@@ -45,7 +45,8 @@ function verificarMateria(persona){
 
 
 
-// Verifique si es mayor de edad, si es menor devolver menor de edad, y si es numero par al final, decir que es par
+// Verifique si es mayor de edad. Si no lo es, devolver 'menor de edad'. Si es numero par al final, decir
+// que es par
 function verificarEdad(persona){
     let Mayoria = persona.edad > 18;
     console.log(persona);
