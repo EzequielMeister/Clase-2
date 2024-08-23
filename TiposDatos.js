@@ -5,7 +5,6 @@ let num = 27;
 let str = 'Matias';
 
 
-
 let nombre = 'Martin';
 let curso = 'B';
 
